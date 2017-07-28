@@ -1,0 +1,61 @@
+/*公共样式*/
+/*初始化默认样式*/
+html,body,ul,li,p,a,div,h1,h2,h3,h4,form,input,img{
+    margin: 0;
+    padding: 0;
+    /*盒模型*/
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+a,a:hover{
+    color: #666;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input{
+    outline: none;
+    border:none;
+    border: 1px solid #666;
+}
+.m10_top{
+    margin-top: 10px;
+}
+.m10_left{
+    margin-left: 10px;
+}
+.m10_right{
+    margin-right: 10px;
+}
+.m10_bottom{
+    margin-bottom: 10px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.b_left{
+    border-left:1px solid #ccc ;
+}
+.b_right{
+    border-right:1px solid #ccc ;
+}
+.b_bottom{
+    border-bottom: 1px solid #ccc;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear:both;
+    visibility: hidden;
+}
